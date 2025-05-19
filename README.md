@@ -15,6 +15,10 @@ This project predicts customer churn for a bank using machine learning models li
 ├── src/
 │   ├── train.py
 │   └── (other source files)
+├── api/
+│   └── main.py
+├── tests/
+│   └── test_api.py
 ├── README.md
 └── requirements.txt
 ```
@@ -57,6 +61,23 @@ Then open [http://localhost:5000](http://localhost:5000) in your browser.
 python src/train.py
 ```
 
+### 6. Run the API (optional)
+
+To serve predictions via FastAPI:
+
+```bash
+uvicorn api.main:app --reload
+```
+Then visit [http://localhost:8000/docs](http://localhost:8000/docs) for the interactive API documentation.
+
+### 7. Run API Tests
+
+Make sure you are in the project root directory:
+
+```bash
+pytest
+```
+
 ## Features
 
 - **Data Preprocessing:** Cleans and transforms raw data for modeling.
@@ -64,6 +85,8 @@ python src/train.py
 - **Experiment Tracking:** Uses MLflow to log parameters, metrics, models, and artifacts.
 - **Visualization:** Saves and logs confusion matrices and other evaluation plots.
 - **Reproducibility:** All runs and artifacts are tracked for easy comparison.
+- **API:** FastAPI app for serving predictions and health checks.
+- **Testing:** Automated tests for API endpoints.
 
 ## MLflow Artifacts
 
@@ -77,4 +100,5 @@ python src/train.py
 - You can change model parameters in `src/train.py`.
 - All experiment runs are tracked in MLflow and can be compared in the UI.
 - Artifacts and outputs are saved in the `output/` directory.
+- The API expects input data in the same format as the training features.
 
