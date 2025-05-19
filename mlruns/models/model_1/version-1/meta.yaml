@@ -1,8 +1,9 @@
-aliases: []
+aliases:
+- staging
 creation_timestamp: 1747641896533
-current_stage: None
+current_stage: Production
 description: ''
-last_updated_timestamp: 1747641896533
+last_updated_timestamp: 1747680078826
 name: model_1
 run_id: 401652d954c34812a8dfe2b41fec9263
 run_link: ''
