@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/383044194236294193/363f0bb9a79940aca87ea903a7a5f816/artifacts
+end_time: 1747640713439
+entry_point_name: ''
+experiment_id: '383044194236294193'
+lifecycle_stage: active
+run_id: 363f0bb9a79940aca87ea903a7a5f816
+run_name: Logistic_Regression
+run_uuid: 363f0bb9a79940aca87ea903a7a5f816
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747640699246
+status: 3
+tags: []
+user_id: Zad

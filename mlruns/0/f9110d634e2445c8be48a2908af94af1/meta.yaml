@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f9110d634e2445c8be48a2908af94af1/artifacts
+end_time: 1747603739703
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f9110d634e2445c8be48a2908af94af1
+run_name: thundering-lark-22
+run_uuid: f9110d634e2445c8be48a2908af94af1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747603737531
+status: 3
+tags: []
+user_id: ghazal_med1

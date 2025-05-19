@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/463085498674131576/48a0ab9bfd5546b189662fae1b59d47d/artifacts
+deleted_time: 1747605369541
+end_time: null
+entry_point_name: ''
+experiment_id: '463085498674131576'
+lifecycle_stage: deleted
+run_id: 48a0ab9bfd5546b189662fae1b59d47d
+run_name: learned-quail-380
+run_uuid: 48a0ab9bfd5546b189662fae1b59d47d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747605342978
+status: 1
+tags: []
+user_id: ghazal_med1

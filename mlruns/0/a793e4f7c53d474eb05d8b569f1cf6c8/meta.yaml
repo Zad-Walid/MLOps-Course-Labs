@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/a793e4f7c53d474eb05d8b569f1cf6c8/artifacts
+end_time: 1747601258673
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a793e4f7c53d474eb05d8b569f1cf6c8
+run_name: welcoming-bat-119
+run_uuid: a793e4f7c53d474eb05d8b569f1cf6c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747601256520
+status: 3
+tags: []
+user_id: ghazal_med1

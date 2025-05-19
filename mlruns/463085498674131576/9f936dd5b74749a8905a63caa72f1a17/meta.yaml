@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/463085498674131576/9f936dd5b74749a8905a63caa72f1a17/artifacts
+deleted_time: 1747604288391
+end_time: null
+entry_point_name: ''
+experiment_id: '463085498674131576'
+lifecycle_stage: deleted
+run_id: 9f936dd5b74749a8905a63caa72f1a17
+run_name: gentle-shoat-59
+run_uuid: 9f936dd5b74749a8905a63caa72f1a17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747601370080
+status: 1
+tags: []
+user_id: ghazal_med1

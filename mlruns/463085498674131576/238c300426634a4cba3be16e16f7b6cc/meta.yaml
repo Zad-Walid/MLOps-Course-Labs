@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/463085498674131576/238c300426634a4cba3be16e16f7b6cc/artifacts
+deleted_time: 1747605356914
+end_time: null
+entry_point_name: ''
+experiment_id: '463085498674131576'
+lifecycle_stage: deleted
+run_id: 238c300426634a4cba3be16e16f7b6cc
+run_name: placid-moth-637
+run_uuid: 238c300426634a4cba3be16e16f7b6cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747605283504
+status: 1
+tags: []
+user_id: ghazal_med1

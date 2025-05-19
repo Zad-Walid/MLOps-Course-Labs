@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/383044194236294193/828a2f03091a4a658d2b92a829c5df07/artifacts
+deleted_time: 1747640556759
+end_time: 1747639155114
+entry_point_name: ''
+experiment_id: '383044194236294193'
+lifecycle_stage: deleted
+run_id: 828a2f03091a4a658d2b92a829c5df07
+run_name: judicious-koi-67
+run_uuid: 828a2f03091a4a658d2b92a829c5df07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747639120845
+status: 3
+tags: []
+user_id: Zad

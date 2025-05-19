@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/383044194236294193/f1ff6f433a8e45aab472c9251e63300b/artifacts
+deleted_time: 1747640556743
+end_time: null
+entry_point_name: ''
+experiment_id: '383044194236294193'
+lifecycle_stage: deleted
+run_id: f1ff6f433a8e45aab472c9251e63300b
+run_name: suave-croc-258
+run_uuid: f1ff6f433a8e45aab472c9251e63300b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747639778187
+status: 1
+tags: []
+user_id: Zad

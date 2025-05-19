@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/de49a204f1a440f0be3121030db27856/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de49a204f1a440f0be3121030db27856
+run_name: abrasive-dolphin-6
+run_uuid: de49a204f1a440f0be3121030db27856
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747601367851
+status: 1
+tags: []
+user_id: ghazal_med1

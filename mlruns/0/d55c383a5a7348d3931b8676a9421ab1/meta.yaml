@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/d55c383a5a7348d3931b8676a9421ab1/artifacts
+end_time: 1747600399382
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d55c383a5a7348d3931b8676a9421ab1
+run_name: stately-sheep-958
+run_uuid: d55c383a5a7348d3931b8676a9421ab1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747600397191
+status: 3
+tags: []
+user_id: ghazal_med1

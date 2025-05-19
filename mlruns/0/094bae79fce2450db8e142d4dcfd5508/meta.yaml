@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/094bae79fce2450db8e142d4dcfd5508/artifacts
+end_time: 1747603873571
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 094bae79fce2450db8e142d4dcfd5508
+run_name: beautiful-hen-107
+run_uuid: 094bae79fce2450db8e142d4dcfd5508
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747603871329
+status: 3
+tags: []
+user_id: ghazal_med1
