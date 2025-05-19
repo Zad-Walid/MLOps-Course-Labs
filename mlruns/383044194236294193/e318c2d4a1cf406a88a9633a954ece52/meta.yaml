@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/383044194236294193/e318c2d4a1cf406a88a9633a954ece52/artifacts
+deleted_time: 1747640808955
+end_time: 1747640579307
+entry_point_name: ''
+experiment_id: '383044194236294193'
+lifecycle_stage: deleted
+run_id: e318c2d4a1cf406a88a9633a954ece52
+run_name: ambitious-zebra-873
+run_uuid: e318c2d4a1cf406a88a9633a954ece52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747640578477
+status: 3
+tags: []
+user_id: Zad

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/383044194236294193/5f292e9eeb804001920f58799385677f/artifacts
+deleted_time: 1747639818740
+end_time: 1747639583749
+entry_point_name: ''
+experiment_id: '383044194236294193'
+lifecycle_stage: deleted
+run_id: 5f292e9eeb804001920f58799385677f
+run_name: colorful-ant-368
+run_uuid: 5f292e9eeb804001920f58799385677f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747639445981
+status: 4
+tags: []
+user_id: Zad

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/9511f3cc6dbe4e57ab56d3eb0f222516/artifacts
+end_time: 1747603531633
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9511f3cc6dbe4e57ab56d3eb0f222516
+run_name: able-shrimp-749
+run_uuid: 9511f3cc6dbe4e57ab56d3eb0f222516
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747603529412
+status: 3
+tags: []
+user_id: ghazal_med1

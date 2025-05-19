@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/463085498674131576/e804ec18fcd84b2184049749561ac8d2/artifacts
+deleted_time: 1747599794400
+end_time: 1747599659679
+entry_point_name: ''
+experiment_id: '463085498674131576'
+lifecycle_stage: deleted
+run_id: e804ec18fcd84b2184049749561ac8d2
+run_name: sneaky-fish-295
+run_uuid: e804ec18fcd84b2184049749561ac8d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747599658950
+status: 4
+tags: []
+user_id: ghazal_med1

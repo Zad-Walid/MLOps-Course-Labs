@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/463085498674131576/ee415dfbb5ac44ad99b6b92b7ef6b56d/artifacts
+deleted_time: 1747599794411
+end_time: 1747599215741
+entry_point_name: ''
+experiment_id: '463085498674131576'
+lifecycle_stage: deleted
+run_id: ee415dfbb5ac44ad99b6b92b7ef6b56d
+run_name: ambitious-skunk-634
+run_uuid: ee415dfbb5ac44ad99b6b92b7ef6b56d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747599215304
+status: 4
+tags: []
+user_id: ghazal_med1

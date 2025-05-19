@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/383044194236294193/401652d954c34812a8dfe2b41fec9263/artifacts
+end_time: 1747640698808
+entry_point_name: ''
+experiment_id: '383044194236294193'
+lifecycle_stage: active
+run_id: 401652d954c34812a8dfe2b41fec9263
+run_name: Random_Forest
+run_uuid: 401652d954c34812a8dfe2b41fec9263
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747640675980
+status: 3
+tags: []
+user_id: Zad

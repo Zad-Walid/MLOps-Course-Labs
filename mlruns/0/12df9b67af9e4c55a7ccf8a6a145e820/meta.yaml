@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/12df9b67af9e4c55a7ccf8a6a145e820/artifacts
+end_time: 1747600507946
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12df9b67af9e4c55a7ccf8a6a145e820
+run_name: adaptable-newt-188
+run_uuid: 12df9b67af9e4c55a7ccf8a6a145e820
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747600505799
+status: 3
+tags: []
+user_id: ghazal_med1

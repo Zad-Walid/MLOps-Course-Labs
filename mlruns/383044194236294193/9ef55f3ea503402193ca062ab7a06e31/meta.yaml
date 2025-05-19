@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/383044194236294193/9ef55f3ea503402193ca062ab7a06e31/artifacts
+deleted_time: 1747640808949
+end_time: 1747640675932
+entry_point_name: ''
+experiment_id: '383044194236294193'
+lifecycle_stage: deleted
+run_id: 9ef55f3ea503402193ca062ab7a06e31
+run_name: hilarious-skink-742
+run_uuid: 9ef55f3ea503402193ca062ab7a06e31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747640675575
+status: 3
+tags: []
+user_id: Zad

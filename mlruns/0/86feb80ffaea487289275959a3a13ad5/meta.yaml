@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/86feb80ffaea487289275959a3a13ad5/artifacts
+end_time: 1747603824595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86feb80ffaea487289275959a3a13ad5
+run_name: inquisitive-hare-619
+run_uuid: 86feb80ffaea487289275959a3a13ad5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747603822375
+status: 3
+tags: []
+user_id: ghazal_med1

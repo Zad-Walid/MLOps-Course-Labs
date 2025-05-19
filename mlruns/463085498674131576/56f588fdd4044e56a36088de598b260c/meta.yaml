@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/463085498674131576/56f588fdd4044e56a36088de598b260c/artifacts
+end_time: 1747604956090
+entry_point_name: ''
+experiment_id: '463085498674131576'
+lifecycle_stage: active
+run_id: 56f588fdd4044e56a36088de598b260c
+run_name: Random_Forest_2
+run_uuid: 56f588fdd4044e56a36088de598b260c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747604941249
+status: 3
+tags: []
+user_id: ghazal_med1

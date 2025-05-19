@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/463085498674131576/728240d12d504ea1b81dd48d7d81c7c5/artifacts
+deleted_time: 1747599794416
+end_time: 1747599509259
+entry_point_name: ''
+experiment_id: '463085498674131576'
+lifecycle_stage: deleted
+run_id: 728240d12d504ea1b81dd48d7d81c7c5
+run_name: stately-goat-790
+run_uuid: 728240d12d504ea1b81dd48d7d81c7c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747599509071
+status: 4
+tags: []
+user_id: ghazal_med1

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/463085498674131576/8a565df3bdb0403285f4133192375f9b/artifacts
+deleted_time: 1747599794406
+end_time: 1747599574979
+entry_point_name: ''
+experiment_id: '463085498674131576'
+lifecycle_stage: deleted
+run_id: 8a565df3bdb0403285f4133192375f9b
+run_name: victorious-snipe-837
+run_uuid: 8a565df3bdb0403285f4133192375f9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747599574498
+status: 4
+tags: []
+user_id: ghazal_med1
