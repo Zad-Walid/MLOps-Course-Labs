@@ -1,0 +1,33 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Git files
+.git/
+.gitignore
+
+# Environment files
+.env
+.venv/
+churn_prediction/  # your local virtualenv folder if named differently
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test artifacts
+*.pytest_cache/
+.coverage
+htmlcov/
