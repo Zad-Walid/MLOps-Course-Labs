@@ -19,6 +19,7 @@ This project predicts customer churn for a bank using machine learning models li
 │   └── main.py
 ├── tests/
 │   └── test_api.py
+├── Dockerfile
 ├── README.md
 └── requirements.txt
 ```
@@ -78,6 +79,18 @@ Make sure you are in the project root directory:
 pytest
 ```
 
+### 8. Run with Docker
+
+You can build and run the application using Docker:
+
+```bash
+docker build -t churn-prediction-app .
+docker run -p 8000:8000 churn-prediction-app
+```
+
+This will start the FastAPI server inside a Docker container.  
+Visit [http://localhost:8000/docs](http://localhost:8000/docs) to interact with the API.
+
 ## Features
 
 - **Data Preprocessing:** Cleans and transforms raw data for modeling.
@@ -87,6 +100,7 @@ pytest
 - **Reproducibility:** All runs and artifacts are tracked for easy comparison.
 - **API:** FastAPI app for serving predictions and health checks.
 - **Testing:** Automated tests for API endpoints.
+- **Docker Support:** Easily build and deploy the app in a containerized environment.
 
 ## MLflow Artifacts
 
