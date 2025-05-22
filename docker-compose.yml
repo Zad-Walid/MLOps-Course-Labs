@@ -6,7 +6,7 @@ services:
     build:
       context: ./api
     ports:
-      - "80:80"
+      - "8000:80"
     expose:
       - "80"
     volumes:

@@ -55,8 +55,28 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}  
           script: |
             aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com
+      
+            # Create directory zad if it doesn't exist and clone repo
+            mkdir -p zad
+            cd zad
+      
+            # If repo folder already exists, pull latest changes, else clone fresh
+            if [ -d "zad" ]; then
+              cd zad
+              git pull
+            else
+              git clone https://github.com/Zad-Walid/MLOps-Course-Labs.git
+              cd zad
+            fi
+      
+            # Pull latest Docker image from ECR
             docker pull ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/churn-prediction:latest
-            docker stop churn-prediction || true # In case the container doesn't exist yet
+            
+            # Stop and remove any running container with the same name
+            docker stop churn-prediction || true
             docker rm churn-prediction || true
-            docker run -d -p 80:80 --name churn-prediction ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/churn-prediction:latest 
+            
+            # Run the container, mapping port 80 on EC2 to port 8000 in container
+            docker run -d -p 80:8000 --name churn-prediction ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/churn-prediction:latest
+            
       
