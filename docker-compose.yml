@@ -15,7 +15,7 @@ services:
   prometheus:
     image: prom/prometheus:latest
     ports:
-      - "9090:9090"
+      - "9099:9099"
     volumes:
       - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
       - /etc/localtime:/etc/localtime:ro
@@ -27,6 +27,6 @@ services:
     depends_on:
       - prometheus
     ports:
-      - "3000:3000"
+      - "3003:3003"
     volumes:
       - /etc/localtime:/etc/localtime:ro

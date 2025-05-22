@@ -75,8 +75,9 @@ jobs:
             # Stop and remove any running container with the same name
             docker stop churn-prediction || true
             docker rm churn-prediction || true
-            
+        
             # Run the container, mapping port 80 on EC2 to port 8000 in container
-            docker run -d -p 80:8000 --name churn-prediction ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/churn-prediction:latest
+            #docker run -d -p 80:8000 --name churn-prediction ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/churn-prediction:latest
+            docker compose -f docker-compose.yml up -d --build
             
       
