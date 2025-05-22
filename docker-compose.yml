@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   api:
-    image: 060795916912.dkr.ecr.us-east-1.amazonaws.com/churn-prediction:latest
+    #image: 060795916912.dkr.ecr.us-east-1.amazonaws.com/churn-prediction:latest
     build:
       context: ./api
     ports:
