@@ -2,12 +2,13 @@ version: '3.8'
 
 services:
   api:
+    image: 060795916912.dkr.ecr.us-east-1.amazonaws.com/churn-prediction:latest
     build:
       context: ./api
     ports:
-      - "8000:8000"
+      - "80:80"
     expose:
-      - "8000"
+      - "80"
     volumes:
       - ./output:/app/output
 
