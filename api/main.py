@@ -3,8 +3,12 @@ from fastapi import FastAPI
 import joblib
 import pandas as pd 
 import logging
+from prometheus_fastapi_instrumentator import Instrumentator
 
 app = FastAPI()
+Instrumentator().instrument(app).expose(app)
+
+
 model = joblib.load("output/model.pkl")
 col_transf = joblib.load("output/column_transformer.joblib")
 
