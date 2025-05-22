@@ -6,7 +6,7 @@ services:
     build:
       context: ./api
     ports:
-      - "80:80"
+      - "80:8000"
     expose:
       - "80"
     volumes:
@@ -15,7 +15,7 @@ services:
   prometheus:
     image: prom/prometheus:latest
     ports:
-      - "9099:9099"
+      - "9090:9090"
     volumes:
       - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
       - /etc/localtime:/etc/localtime:ro
@@ -27,6 +27,6 @@ services:
     depends_on:
       - prometheus
     ports:
-      - "3003:3003"
+      - "3000:3000"
     volumes:
       - /etc/localtime:/etc/localtime:ro

@@ -78,5 +78,6 @@ jobs:
         
             # Run the container, mapping port 80 on EC2 to port 8000 in container
             #docker run -d -p 80:8000 --name churn-prediction ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/churn-prediction:latest
-            docker compose up -d --build            
+            docker compose up -d --build
+            
       
