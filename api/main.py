@@ -3,18 +3,19 @@ from fastapi import FastAPI
 import joblib
 import pandas as pd 
 import logging
+import os
 from prometheus_fastapi_instrumentator import Instrumentator
 
 app = FastAPI()
 Instrumentator().instrument(app).expose(app)
 
 
-model = joblib.load("output/model.pkl")
-col_transf = joblib.load("output/column_transformer.joblib")
-
+model = joblib.load("../output/model.pkl")
+col_transf = joblib.load("../output/column_transformer.joblib")
+os.makedirs("logs", exist_ok=True)
 logging.basicConfig(level=logging.INFO , 
 format='%(asctime)s - %(levelname)s - %(message)s',
-filename = 'api/logs/api.log', 
+filename = 'logs/api.log', 
 filemode = 'a')
 
 logger = logging.getLogger(__name__)

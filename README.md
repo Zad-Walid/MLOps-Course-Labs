@@ -16,7 +16,8 @@ This project predicts customer churn for a bank using machine learning models li
 │   ├── train.py
 │   └── (other source files)
 ├── api/
-│   └── main.py
+│   ├── main.py
+│   └── Dockerfile
 ├── tests/
 │   └── test_api.py
 ├── Dockerfile
@@ -81,15 +82,25 @@ pytest
 
 ### 8. Run with Docker
 
-You can build and run the application using Docker:
+You can build and run the application using Docker.  
+**If your Dockerfile is in the project root:**
 
 ```bash
 docker build -t churn-prediction-app .
 docker run -p 8000:8000 churn-prediction-app
 ```
 
+**If your Dockerfile is in the `api/` folder:**
+
+```bash
+docker build -t churn-prediction-app -f api/Dockerfile .
+docker run -p 8000:8000 churn-prediction-app
+```
+
 This will start the FastAPI server inside a Docker container.  
 Visit [http://localhost:8000/docs](http://localhost:8000/docs) to interact with the API.
+
+---
 
 ## Features
 
@@ -101,6 +112,7 @@ Visit [http://localhost:8000/docs](http://localhost:8000/docs) to interact with 
 - **API:** FastAPI app for serving predictions and health checks.
 - **Testing:** Automated tests for API endpoints.
 - **Docker Support:** Easily build and deploy the app in a containerized environment.
+- **Prometheus Monitoring:** Integrated with Prometheus for API metrics.
 
 ## MLflow Artifacts
 
@@ -115,4 +127,6 @@ Visit [http://localhost:8000/docs](http://localhost:8000/docs) to interact with 
 - All experiment runs are tracked in MLflow and can be compared in the UI.
 - Artifacts and outputs are saved in the `output/` directory.
 - The API expects input data in the same format as the training features.
+- API logs are saved in the `logs/` directory.
+- Prometheus metrics are available if you enable scraping on the running API.
 
